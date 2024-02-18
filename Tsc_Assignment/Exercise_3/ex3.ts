@@ -8,10 +8,10 @@ console.log("Answer 3");
 let personName:  string = "Malik";
 
 // print the person’s name in lowercase
-console.log("MALIK:  ",personName.toLowerCase());
+console.log("LowerCase:  ",personName.toLowerCase());
 
 // print the person’s name in lowercase
-console.log("malik:  ",personName.toUpperCase());
+console.log("UpperCase:  ",personName.toUpperCase());
 
 // print the person’s in titlecase
-console.log("malik: ", personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());
+console.log("TitleCase: ", personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());
